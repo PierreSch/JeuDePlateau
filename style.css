@@ -1,0 +1,111 @@
+.box, .obstacle, .player{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 0, .3);
+}
+#ring, #result{
+    width: 800px;
+    height: 700px;
+    border: 5px ridge rgb(148, 112, 70);
+    box-shadow: white 0 0 7px;
+    background-color: rgba(110, 85, 51, 0.808);
+}
+.box{
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+}
+.rowBox{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+#grid{
+    
+    border: 5px ridge rgb(148, 112, 70);
+}
+h1, .text{
+    font-family: Trade Winds;
+    font-size: x-large;
+}
+.textWinner{
+    font-family: Trade Winds;
+    margin-top: 200px;
+    font-size: 50px;
+}
+#attack{
+    background-color: rgba(109, 64, 0, 0.753);
+    border: 5px ridge rgb(148, 112, 70);
+    margin-bottom: 10px;
+}
+#attack:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 5px black;
+    background-color: rgba(109, 64, 0, 0.753);
+    border: 5px ridge rgb(148, 112, 70);
+    margin-bottom: 10px;
+}
+#defense{
+    background-color: rgba(109, 64, 0, 0.753);
+    border: 5px ridge rgb(148, 112, 70);
+}
+#defense:hover, #retry:hover, #genBoard:hover{
+    transform: scale(1.01);
+    box-shadow: 1px 1px 5px black;
+    background-color: rgba(109, 64, 0, 0.753);
+    border: 5px ridge rgb(148, 112, 70);
+}
+#retry{
+    background-color: rgba(109, 64, 0, 0.753);
+    border: 5px ridge rgb(148, 112, 70);
+}
+body{
+    background: no-repeat;
+    padding-top: 30px;
+}
+#board{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: white 0 0 6px;
+    
+}
+#rule, #setting{
+    margin-top: 45px;
+    background-color: rgba(255, 255, 255, 0.445);
+    box-shadow: white 0 0 6px;
+    padding-top: 15px;
+}
+.statuPlayer img{
+    max-height: 350px;
+    width: auto;
+    margin-bottom: 15px;
+}
+#ring img{
+    max-height: 300px;
+    width: auto;
+}
+#genBoard{
+    margin: 10px 0 10px 0;
+    background-color: rgba(109, 64, 0, 0.753);
+    border: 5px ridge rgb(148, 112, 70);
+    box-shadow: white 0 0 6px; 
+}
+#nbrColumn, #nbrRow, #theme, #nbrObstacle, #moreWeapons{
+    margin: 10px 0 10px 0;
+    background-color: rgba(109, 64, 0, 0.753);
+    border: 5px ridge rgb(148, 112, 70);
+    box-shadow: white 0 0 6px;
+    font-size: 20px !important;
+}
+button:focus{
+    outline: none !important;    
+}
+.set{
+    margin: 0 20px 0 20px;
+}
+option{
+    font-size: 20px !important;
+}
+label{
+    margin-right: 10px;
+}
+
