@@ -39,7 +39,5 @@ let move = theme+"/board/box_move.gif";
 let skinObstacle = theme+"/board/obstacle.png";
 
 
-/*BONJOur*/
-
 
 

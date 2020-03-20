@@ -1,4 +1,3 @@
-
 class Board {
     constructor(row, column) {
         this.row = row;
@@ -49,11 +48,9 @@ class Board {
         const element = [weapon1, weapon2, weapon3, weapon4, player1, player2];
         //Ajoute le tableau des armes supplementaire
         const allElement = element.concat(weapons);
-
         allElement.forEach(element => {
             this.spawn(element);
         });
-        console.log(allElement)
     }
     //Methode pour ajouter des armes sur le board
     spawnMoreWeapons(number){
@@ -70,8 +67,7 @@ class Board {
             weapons.push(new Weapon(30, skinWeapon4, "weapon"))
         }
     }
-    return weapons;   
-    
+    return weapons;       
     } 
 };
 

@@ -5,8 +5,7 @@ class Player {
         this.img = img;
         this.style = style;
         this.weapon = weapon;
-        this.id = id;
-        
+        this.id = id;       
     }
     //Fonction pour vérifier les case libre pour le déplacement
     checkBox(direction, id){
